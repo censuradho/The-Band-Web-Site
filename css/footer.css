@@ -1,0 +1,26 @@
+footer {
+    background-color: #fff;
+}
+footer img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .icones {
+    margin: 10% 0;
+    background-color: #fff;
+    color: #656565;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.icones .fab {
+    padding: 1%;
+    font-size: 1.8rem;
+}
+.icones .fab:hover {
+    color: #ccc;
+}

@@ -1,0 +1,97 @@
+.cabecalho-mob {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #000;
+	align-items: flex-start;
+	background-size: cover;
+	z-index: 999;
+	position: fixed;
+}
+.cabecalho-mob a {
+	color: #fff;
+	text-transform: uppercase;
+}
+.icone-bars {
+	font-size: 1.5rem;
+	color: #fff;
+	cursor: pointer;
+	padding: 16px 26px;
+}
+.cabecalho-mob li {
+	padding: 16px 26px;
+}
+.menu-mobile {
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	background: #000;
+	display: none;
+}
+.menu-mobile li:hover {
+	background-color: #ccc;
+	cursor: pointer;
+}
+.menu-mobile li:hover > a {
+	color: #000 !important;
+}
+#toggle {
+	display: none;
+}
+#toggle:checked ~ .menu-mobile {
+	display: block;
+}
+@media screen and (max-width: 562px) {
+	.cabecalho-top {
+		display: none
+	}
+}
+@media screen and (min-width: 562px) {
+	.cabecalho-mob {
+		display: none;
+	}
+	.cabecalho-top {
+		width: 100%;
+		background-color: #000;
+		position: fixed;
+		align-items: center;
+		display: flex;
+		justify-content: space-around;
+	}
+	.cabecalho-top h1 {
+		color: #fff;
+		font-weight: 300;
+		font-size: 1.3rem;
+	}
+	.menu-top ul li {
+		float: left;
+		list-style: none;
+	}
+	.menu-top li:hover {
+		background-color: #ccc;
+	}
+	.menu-top li:hover > a {
+		color: #000;
+	}
+	.menu-top a {
+		color: #fff;
+		display: block;
+		padding: 15px 20px;
+		text-transform: uppercase;
+	}
+	.menu-top li:hover > .submenu {
+		display: flex;
+		flex-direction: column;
+		position: absolute;	
+	}
+
+	.submenu {
+		display: none;
+	}
+	.submenu li {
+		background-color: #fff;
+	}
+	.submenu a {
+		color: #000;
+	}
+}

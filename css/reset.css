@@ -1,0 +1,21 @@
+/*reset*/
+@import url('header.css');
+@import url('banner.css');
+@import url('band.css');
+@import url('tour.css');
+@import url('contact.css');
+@import url('footer.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1rem;
+}
+a {
+	text-decoration: none;
+}
+body {
+	width: 100%;
+}
