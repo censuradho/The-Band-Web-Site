@@ -5,4 +5,4 @@ function change_image() {
 function slider_timer() {
     setInterval(change_image, 4*1000)
 }
-window.addEventListener('load', slider)
+window.addEventListener('load', slider_timer)
