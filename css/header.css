@@ -9,6 +9,9 @@
 	position: fixed;
 }
 .cabecalho-mob a {
+	display: block;
+	padding: 16px 26px;
+	width: 100%;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -19,7 +22,6 @@
 	padding: 16px 26px;
 }
 .cabecalho-mob li {
-	padding: 16px 26px;
 	transition: 0.3s;
 }
 .menu-mobile {

@@ -13,13 +13,18 @@
 }
 #band span {
 	color: #656565;
-	padding: 2% 0;
+	padding: 20px 0;
 }
 #band p {
-	text-align: justify;
 	width: 90%;
 }
+.text-about{
+	text-align: center;
+}
 @media screen and (min-width: 700px) {
+	.text-about {
+		width: 700px !important;
+	}
 	#band .container {
 		display: flex;
 		width: 92% !important;
@@ -30,23 +35,32 @@
 	}
 }
 #band .container {
-	padding: 10% 0;
-	width: 90%;
+	padding: 50px 0 !important;
+	width: 60%;
 }
 #band .container span {
 	display: block;
-	font-size: 1.2rem;
 	align-self: flex-start
+}
+.description {
+	font-size: 1.4rem !important;
+	padding: 20px 0 !important;
+}
+.name {
+	font-size: 1.6rem !important;
+	color: black !important;
+	padding: 20px 0 !important;
 }
 #band .container img {
 	width: 100%;
 }
+
 #band .container article {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	padding: 5% 0;
+	padding: 20% 0;
 }
 #band .container p {
 	width: 100%;
